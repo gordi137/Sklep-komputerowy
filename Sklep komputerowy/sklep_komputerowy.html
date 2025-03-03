@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep Komputerowy</title>
+    <link rel="stylesheet" href="sklep_komputerowyCSS.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>Sklep Komputerowy</h1></div>
+        <nav class="navbar"> 
+            <ul>
+                <li><a class="nav-button" href="#home">Strona Główna</a></li>
+                <li><a class="nav-button" href="#products">Produkty</a></li>
+                <li><a class="nav-button" href="#contact">Kontakt</a></li>
+                <li><a class="nav-button" href="#about">O nas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <h1>Witamy w naszym sklepie komputerowym</h1>
+        <p>Najlepsze komputery i akcesoria w atrakcyjnych cenach.</p>
+        <a href="#products" class="btn">Zobacz produkty</a>
+    </section>
+    <section id="products" class="container">
+        <h2>Nasze Produkty</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img id="laptop" src="laptop.jpg" alt="Laptop Gamingowy">
+                <h3>Laptop Gamingowy</h3>
+                <p>Mocny laptop do gier z kartą graficzną RTX 4060.</p>
+                <strong>Cena: 4999 PLN</strong>
+            </div>
+            <div class="product">
+                <img id="pc" src="PC.jpg" alt="Komputer Stacjonarny">
+                <h3>Komputer Stacjonarny</h3>
+                <p>Wydajny komputer do pracy i gier.</p>
+                <strong>Cena: 3999 PLN</strong>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="container">
+        <h2>Kontakt</h2>
+        <p>Masz pytania? Skontaktuj się z nami!</p>
+        <div class="contact-form">
+            <form>
+                <label for="name">Imię i nazwisko:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
+    </section>
+    <section id="about" class="container">
+        <h2>O nas</h2>
+        <p>Jesteśmy pasjonatami nowoczesnych technologii i od lat dostarczamy naszym klientom najwyższej jakości sprzęt komputerowy. Nasza firma powstała z myślą o osobach, które szukają niezawodnych rozwiązań – od komputerów gamingowych, przez laptopy do pracy, aż po akcesoria ułatwiające codzienną pracę. Nasz zespół składa się z ekspertów, którzy chętnie doradzą i pomogą dobrać idealny sprzęt dopasowany do Twoich potrzeb.</p>
+        <p>Współpracujemy z największymi producentami na rynku, co pozwala nam oferować konkurencyjne ceny i najnowsze modele urządzeń. Nieustannie poszerzamy naszą ofertę, aby sprostać wymaganiom zarówno profesjonalistów, jak i entuzjastów gier komputerowych. Naszą misją jest zapewnienie najwyższego standardu obsługi klienta oraz dostarczanie sprzętu, który spełni Twoje oczekiwania i pomoże Ci osiągnąć zamierzone cele.</p>
+        <p>Dziękujemy za zaufanie i zapraszamy do zakupów w naszym sklepie!</p>
+    </section>
+    <footer>
+        &copy; 2025 Sklep Komputerowy - Wszystkie prawa zastrzeżone
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
